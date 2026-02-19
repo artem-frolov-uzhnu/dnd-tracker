@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-hero: #16a34a;
+  --color-hero-light: #dcfce7;
+  --color-enemy: #dc2626;
+  --color-enemy-light: #fee2e2;
+  --color-hp: #ef4444;
+  --color-mp: #3b82f6;
+  --color-armor: #a855f7;
+  --color-speed: #f59e0b;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #f8fafc;
+  -webkit-tap-highlight-color: transparent;
+}
